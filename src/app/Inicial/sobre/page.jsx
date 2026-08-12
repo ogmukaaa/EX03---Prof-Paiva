@@ -20,7 +20,6 @@ export default function Sobre() {
                 Estratégia para transformar.</p>
         </div>
 
-        <div className="oQuenosmove">
         </>
     )
 }

@@ -29,20 +29,11 @@ export default function RootLayout({ children }) {
 
         <nav className="menu">
         <Link href="/" className="linknav"> Inicio </Link>
-        <Link href="Inicial/sobre" className="linknav"> Sobre </Link>
-        <Link href="Inicial/contato" className="linknav"> Contato </Link>
+        <Link href="/Inicial/sobre" className="linknav"> Sobre </Link>
+        <Link href="/Inicial/contato" className="linknav"> Contato </Link>
         </nav>
         </header>
 
-        {/* <footer className="footer">
-        <div className="footer-container">
-          <div className="footer-logo">
-            <img src="/imagens/tier11.png" alt="tier logo" className="logo-img" />
-            <h1>Tier 11</h1>
-            <p>Unlock Your Business Potential With Facebook & Instagram Advertising</p>
-          </div>
-          </div>
-          </footer> */}
         {children}
         </body>
     </html>
