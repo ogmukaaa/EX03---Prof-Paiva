@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #1062f2 0%, #0d3890 60%, #172b68 100%);
+  min-height: 100vh;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.sobreNos {
+    /* margin-bottom: 90px; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+
+.img-tela {
+    display: block;
+    margin: 0 auto;
+    max-height: 90px;
+}
