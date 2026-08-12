@@ -9,12 +9,14 @@ export default function Contato() {
         </div>
         
         <form className="formulario">
-            <label for="nome">Nome:</label>
+            <label htmlfor="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required />
-            <label for="nome">Email:</label>
-            <input type="email" id="nome" name="nome" required />
-            <label for="nome">Telefone:</label>
-            <input type="number" id="nome" name="nome" required />
+
+            <label htmlfor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            
+            <label htmlfor="telefone">Telefone:</label>
+            <input type="number" id="telefone" name="telefone" required />
 
             <button type="submit">Enviar</button>
         </form>

@@ -33,8 +33,10 @@ export default function RootLayout({ children }) {
         <Link href="/Inicial/contato" className="linknav"> Contato </Link>
         </nav>
         </header>
-
         {children}
+        <footer className="footer">
+            <p>© 2026 Nome da Empresa. Todos os direitos reservados.</p>
+        </footer>
         </body>
     </html>
   );
