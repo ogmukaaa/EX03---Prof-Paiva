@@ -18,6 +18,9 @@ export default function Contato() {
             <label htmlfor="telefone">Telefone:</label>
             <input type="number" id="telefone" name="telefone" required />
 
+            <label htmlfor="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
             <button type="submit">Enviar</button>
         </form>
         </>
