@@ -1,10 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import BannerCTA from "@/components/bannerCTA";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default async function Home() {
-  return(
+
+  await sleep(3500);
+
+  // throw new Error("Simulando erro catastrófico");
+
+
+  return (
     <>
     <section className="hero-container">
       <div className="hero-conteudo"> 
@@ -54,6 +63,9 @@ export default async function Home() {
 
         </div>
       </section>
+
+
+      <BannerCTA/>
     </>
   )
 }
